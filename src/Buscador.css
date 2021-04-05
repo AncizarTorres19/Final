@@ -1,0 +1,186 @@
+
+
+/*caja del menu desp*/
+.cuerpo {
+  position: relative; 
+  height: 543px;
+  text-align: center;
+  width: 130%; 
+  background: rgba(0, 0, 0, 0.2);
+  top: 15px;
+  right: 10%;
+  bottom: 0%;
+  border-radius: 6px;
+  overflow-y: scroll;
+  
+}
+
+.cuerpo::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+.cuerpo::-webkit-scrollbar-thumb{
+  border-radius: 6px;
+  background: #1c4d75;
+}
+.perros::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+.perros::-webkit-scrollbar-thumb{
+  border-radius: 6px;
+  background:#1c4d75;
+}
+
+
+
+
+/* texto*/
+.Hola{ 
+  position: relative;
+  color: #000;
+  top: 5%;
+  font-size: 28px;
+  
+}
+/*menu desp*/
+.cold-md-4{
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  left: 20%;
+  top: 7%;
+  width: 60%; 
+}
+
+/*esto es del tamaño de la letra del menu desp*/
+.form-select{
+  font-size: 20px;
+ }
+ 
+
+/* boton adoptar*/
+.btn 
+{
+  position: relative;
+  width: 100px;
+  top: 10%;
+  font-size: 16px;
+}
+
+
+
+/*esto es la imgen del buscador*/
+.card-img-top{
+  object-fit: contain;
+  background-position: center;
+  position: relative;
+  width: 120px;
+  height: 165px;
+
+}
+
+/*esto es la img del carrito*/
+.img-canasta{
+  
+  object-fit: contain;
+  background-position: center;
+  position: relative;
+  top: 30px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 250px;
+  height: 150px;
+}
+
+
+/*esto es el boton de eliminar perro*/
+.button.eliminar,   
+.button.eliminar:hover {
+ text-justify: auto;
+ text-align: center;
+  position: relative;
+  background-color: #c8a647;
+  color: white;
+  margin-top: 4.5rem;
+  width: 110px;
+  height: 35px;
+  left: 4px;
+  line-height: 17px;
+  font-size: 11px;
+ 
+}
+
+
+
+.Continuar{
+  background-color: rgb(75, 123, 185);
+  position: relative;
+  margin-top: 2rem;
+  right: 30px;
+  height: 50px;
+  text-align: center;
+  width: 130px;
+  top:0%;
+  left:97%;
+  bottom: 10%;
+  font-size: 14px;
+ 
+  
+}
+
+.Con {
+  color: aliceblue;
+}
+
+/*caja de perro elegidos*/
+.perro{
+  position: relative; 
+  height: 300px;
+  text-align: center;
+  width: 300px; 
+  background: rgba(0, 0, 0, 0.2);
+  top:10%;
+  right: 50%;
+  left:10%;
+  bottom: 10%;
+  border-radius: 6px;
+  margin: 5px;
+ 
+}
+/*caja de la canasta*/
+.perros{
+  position: relative; 
+  height: 543px;
+  text-align: center;
+  width: 420px; 
+  background: rgba(0, 0, 0, 0.2);
+  top:2%;
+  right: 50%;
+  left:50%;
+  bottom: 10%;
+  border-radius: 6px;
+  margin: 5px;
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+
+h1 {
+  top:6%;
+  right: 5%;
+  left:auto;
+  bottom: 10%;
+  position: relative; 
+ 
+
+}
+
+.card{
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+
